@@ -31,8 +31,7 @@ class Feed extends FeedAbstract
         $nodeData = $doc->createElement('data');
         $nodeXMLData->appendChild($nodeData);
 
-        $this->setMainXmlElement($nodeXMLData);
-        $doc->formatOutput = true;
+        $this->setMainXmlElement($nodeData);
 
         return $nodeXMLData;
     }
