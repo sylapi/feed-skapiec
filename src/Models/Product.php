@@ -62,6 +62,7 @@ class Product implements ProductSerializer
 
     /**
      * @Serializer\Type("string")
+     * @Serializer\Exclude
      */
     private $productCategory;
 

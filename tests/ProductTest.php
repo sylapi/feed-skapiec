@@ -52,7 +52,7 @@ class ProductTest extends PHPUnitTestCase
             ])
             ->setPrice(100.00)
             ->setSalePrice(90.00)
-            ->setProductCategory('Elektronika')
+            ->setProductCategory('Elektronika / Tv / Brand')
             ->setManufacturer('Test Manufacturer')
             ->setGtin('1234567890')
             ->setMpn('0987654321')
